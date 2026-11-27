@@ -1,0 +1,26 @@
+{
+  "name": "@firstfifty/hero-assets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build tooling for the Phase 0 hero demo assets: glTF optimisation (gltf-transform + meshopt) and frame/poster encoding (sharp). Blender scripts live in ./scripts.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "glb:optimize": "node scripts/optimize_glb.mjs",
+    "glb:inspect": "gltf-transform inspect ../../prototypes/hero-demo/public/hero/card.glb && gltf-transform inspect ../../prototypes/hero-demo/public/hero/shards.glb && gltf-transform inspect ../../prototypes/hero-demo/public/hero/envelope.glb",
+    "glb:verify": "node scripts/verify_glb.mjs",
+    "encode": "node scripts/encode.mjs",
+    "contact": "node scripts/contact_sheet.mjs"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "4.5.1",
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "meshoptimizer": "1.2.0",
+    "sharp": "0.35.5"
+  }
+}

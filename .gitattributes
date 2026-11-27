@@ -27,3 +27,8 @@ assets-src/**/*.exr filter=lfs diff=lfs merge=lfs -text
 assets-src/**/*.hdr filter=lfs diff=lfs merge=lfs -text
 assets-src/**/*.psd filter=lfs diff=lfs merge=lfs -text
 assets-src/**/*.mov filter=lfs diff=lfs merge=lfs -text
+
+# Phase evidence (screen recordings, compressed traces) in Git LFS
+docs/phase-reports/evidence/**/*.webm filter=lfs diff=lfs merge=lfs -text
+docs/phase-reports/evidence/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+docs/phase-reports/evidence/**/*.gz filter=lfs diff=lfs merge=lfs -text
