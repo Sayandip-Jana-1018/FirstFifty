@@ -1,0 +1,29 @@
+# Line endings: normalised to LF in the repo; tools that need a fixed ending get it here.
+* text=auto
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files: never diffed or merged as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.avif binary
+*.gif binary
+*.ico binary
+*.glb binary
+*.ktx2 binary
+*.woff binary
+*.woff2 binary
+*.mp4 binary
+*.webm binary
+
+# Large 3D and media sources live in Git LFS (docs/WORKFLOW.md, "Git")
+assets-src/**/*.blend filter=lfs diff=lfs merge=lfs -text
+assets-src/**/*.exr filter=lfs diff=lfs merge=lfs -text
+assets-src/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+assets-src/**/*.psd filter=lfs diff=lfs merge=lfs -text
+assets-src/**/*.mov filter=lfs diff=lfs merge=lfs -text

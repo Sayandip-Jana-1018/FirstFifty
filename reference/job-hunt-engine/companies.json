@@ -1,0 +1,1252 @@
+{
+ "_note": "tier: A = new-grad total comp usually >= 25 LPA, B = usually 18-30 LPA for SDE-1, C = borderline (~15-20), only shown when the role is strong. Approximate, from public comp data; re-check on levels.fyi / AmbitionBox before accepting an offer.",
+ "sources": [
+  {
+   "name": "Google",
+   "ats": "google",
+   "tier": "A"
+  },
+  {
+   "name": "Microsoft",
+   "ats": "microsoft",
+   "tier": "A"
+  },
+  {
+   "name": "Amazon",
+   "ats": "amazon",
+   "tier": "A"
+  },
+  {
+   "name": "Atlassian",
+   "ats": "atlassian",
+   "tier": "A"
+  },
+  {
+   "name": "Oracle",
+   "ats": "oracle",
+   "tier": "B",
+   "host": "eeho.fa.us2.oraclecloud.com",
+   "site": "CX_45001",
+   "joburl": "https://careers.oracle.com/jobs/#en/sites/jobsearch/job/{id}"
+  },
+  {
+   "name": "JPMorgan Chase",
+   "ats": "oracle",
+   "tier": "B",
+   "host": "jpmc.fa.oraclecloud.com",
+   "site": "CX_1001",
+   "joburl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/{id}"
+  },
+  {
+   "name": "Databricks",
+   "ats": "greenhouse",
+   "slug": "databricks",
+   "tier": "A"
+  },
+  {
+   "name": "Stripe",
+   "ats": "greenhouse",
+   "slug": "stripe",
+   "tier": "A"
+  },
+  {
+   "name": "Rubrik",
+   "ats": "greenhouse",
+   "slug": "rubrik",
+   "tier": "A"
+  },
+  {
+   "name": "Coinbase",
+   "ats": "greenhouse",
+   "slug": "coinbase",
+   "tier": "A"
+  },
+  {
+   "name": "Airbnb",
+   "ats": "greenhouse",
+   "slug": "airbnb",
+   "tier": "A"
+  },
+  {
+   "name": "Glean",
+   "ats": "greenhouse",
+   "slug": "gleanwork",
+   "tier": "A"
+  },
+  {
+   "name": "Anthropic",
+   "ats": "greenhouse",
+   "slug": "anthropic",
+   "tier": "A"
+  },
+  {
+   "name": "Okta",
+   "ats": "greenhouse",
+   "slug": "okta",
+   "tier": "A"
+  },
+  {
+   "name": "Zscaler",
+   "ats": "greenhouse",
+   "slug": "zscaler",
+   "tier": "A"
+  },
+  {
+   "name": "Pure Storage",
+   "ats": "greenhouse",
+   "slug": "purestorage",
+   "tier": "A"
+  },
+  {
+   "name": "Datadog",
+   "ats": "greenhouse",
+   "slug": "datadog",
+   "tier": "A"
+  },
+  {
+   "name": "Twilio",
+   "ats": "greenhouse",
+   "slug": "twilio",
+   "tier": "A"
+  },
+  {
+   "name": "MongoDB",
+   "ats": "greenhouse",
+   "slug": "mongodb",
+   "tier": "A"
+  },
+  {
+   "name": "Toast",
+   "ats": "greenhouse",
+   "slug": "toast",
+   "tier": "A"
+  },
+  {
+   "name": "Elastic",
+   "ats": "greenhouse",
+   "slug": "elastic",
+   "tier": "A"
+  },
+  {
+   "name": "GitLab",
+   "ats": "greenhouse",
+   "slug": "gitlab",
+   "tier": "A"
+  },
+  {
+   "name": "Fivetran",
+   "ats": "greenhouse",
+   "slug": "fivetran",
+   "tier": "A"
+  },
+  {
+   "name": "Harness",
+   "ats": "greenhouse",
+   "slug": "harnessinc",
+   "tier": "A"
+  },
+  {
+   "name": "Agoda",
+   "ats": "greenhouse",
+   "slug": "agoda",
+   "tier": "A"
+  },
+  {
+   "name": "Figma",
+   "ats": "greenhouse",
+   "slug": "figma",
+   "tier": "A"
+  },
+  {
+   "name": "IMC Trading",
+   "ats": "greenhouse",
+   "slug": "imc",
+   "tier": "A"
+  },
+  {
+   "name": "Graviton Research Capital",
+   "ats": "greenhouse",
+   "slug": "gravitonresearchcapital",
+   "tier": "A"
+  },
+  {
+   "name": "Tower Research Capital",
+   "ats": "greenhouse",
+   "slug": "towerresearchcapital",
+   "tier": "A"
+  },
+  {
+   "name": "SingleStore",
+   "ats": "greenhouse",
+   "slug": "singlestore",
+   "tier": "A"
+  },
+  {
+   "name": "New Relic",
+   "ats": "greenhouse",
+   "slug": "newrelic",
+   "tier": "A"
+  },
+  {
+   "name": "Commvault",
+   "ats": "greenhouse",
+   "slug": "commvault",
+   "tier": "B"
+  },
+  {
+   "name": "Druva",
+   "ats": "greenhouse",
+   "slug": "druva",
+   "tier": "B"
+  },
+  {
+   "name": "JFrog",
+   "ats": "greenhouse",
+   "slug": "jfrog",
+   "tier": "B"
+  },
+  {
+   "name": "Sumo Logic",
+   "ats": "greenhouse",
+   "slug": "sumologic",
+   "tier": "B"
+  },
+  {
+   "name": "Yugabyte",
+   "ats": "greenhouse",
+   "slug": "yugabyte",
+   "tier": "B"
+  },
+  {
+   "name": "StarTree",
+   "ats": "greenhouse",
+   "slug": "startree",
+   "tier": "B"
+  },
+  {
+   "name": "Cockroach Labs",
+   "ats": "greenhouse",
+   "slug": "cockroachlabs",
+   "tier": "A"
+  },
+  {
+   "name": "Grafana Labs",
+   "ats": "greenhouse",
+   "slug": "grafanalabs",
+   "tier": "A"
+  },
+  {
+   "name": "Vercel",
+   "ats": "greenhouse",
+   "slug": "vercel",
+   "tier": "A"
+  },
+  {
+   "name": "Block",
+   "ats": "greenhouse",
+   "slug": "block",
+   "tier": "A"
+  },
+  {
+   "name": "Scale AI",
+   "ats": "greenhouse",
+   "slug": "scaleai",
+   "tier": "A"
+  },
+  {
+   "name": "Cloudflare",
+   "ats": "greenhouse",
+   "slug": "cloudflare",
+   "tier": "A"
+  },
+  {
+   "name": "Razorpay",
+   "ats": "greenhouse",
+   "slug": "razorpaysoftwareprivatelimited",
+   "tier": "B"
+  },
+  {
+   "name": "Groww",
+   "ats": "greenhouse",
+   "slug": "groww",
+   "tier": "A"
+  },
+  {
+   "name": "InMobi",
+   "ats": "greenhouse",
+   "slug": "inmobi",
+   "tier": "B"
+  },
+  {
+   "name": "Glance",
+   "ats": "greenhouse",
+   "slug": "glance",
+   "tier": "B"
+  },
+  {
+   "name": "HackerRank",
+   "ats": "greenhouse",
+   "slug": "hackerrank",
+   "tier": "B"
+  },
+  {
+   "name": "Observe.AI",
+   "ats": "greenhouse",
+   "slug": "observeai",
+   "tier": "B"
+  },
+  {
+   "name": "Slice",
+   "ats": "greenhouse",
+   "slug": "slice",
+   "tier": "B"
+  },
+  {
+   "name": "OpenAI",
+   "ats": "ashby",
+   "slug": "openai",
+   "tier": "A"
+  },
+  {
+   "name": "Snowflake",
+   "ats": "ashby",
+   "slug": "snowflake",
+   "tier": "A"
+  },
+  {
+   "name": "ClickHouse",
+   "ats": "ashby",
+   "slug": "clickhouse",
+   "tier": "A"
+  },
+  {
+   "name": "ElevenLabs",
+   "ats": "ashby",
+   "slug": "elevenlabs",
+   "tier": "A"
+  },
+  {
+   "name": "Notion",
+   "ats": "ashby",
+   "slug": "notion",
+   "tier": "A"
+  },
+  {
+   "name": "Sarvam AI",
+   "ats": "ashby",
+   "slug": "sarvam",
+   "tier": "A"
+  },
+  {
+   "name": "Tekion",
+   "ats": "ashby",
+   "slug": "tekion",
+   "tier": "A"
+  },
+  {
+   "name": "Atlan",
+   "ats": "ashby",
+   "slug": "atlan",
+   "tier": "A"
+  },
+  {
+   "name": "Temporal",
+   "ats": "ashby",
+   "slug": "temporal",
+   "tier": "A"
+  },
+  {
+   "name": "Redis",
+   "ats": "ashby",
+   "slug": "redis",
+   "tier": "A"
+  },
+  {
+   "name": "Deepgram",
+   "ats": "ashby",
+   "slug": "deepgram",
+   "tier": "A"
+  },
+  {
+   "name": "Navi",
+   "ats": "ashby",
+   "slug": "navi",
+   "tier": "B"
+  },
+  {
+   "name": "Meesho",
+   "ats": "lever",
+   "slug": "meesho",
+   "tier": "A"
+  },
+  {
+   "name": "CRED",
+   "ats": "lever",
+   "slug": "cred",
+   "tier": "A"
+  },
+  {
+   "name": "Zeta",
+   "ats": "lever",
+   "slug": "zeta",
+   "tier": "B"
+  },
+  {
+   "name": "Paytm",
+   "ats": "lever",
+   "slug": "paytm",
+   "tier": "B"
+  },
+  {
+   "name": "Mindtickle",
+   "ats": "lever",
+   "slug": "mindtickle",
+   "tier": "B"
+  },
+  {
+   "name": "Pocket FM",
+   "ats": "lever",
+   "slug": "pocketfm",
+   "tier": "B"
+  },
+  {
+   "name": "ServiceNow",
+   "ats": "smartrecruiters",
+   "slug": "servicenow",
+   "tier": "A"
+  },
+  {
+   "name": "Arista Networks",
+   "ats": "smartrecruiters",
+   "slug": "aristanetworks",
+   "tier": "A"
+  },
+  {
+   "name": "Wise",
+   "ats": "smartrecruiters",
+   "slug": "wise",
+   "tier": "A"
+  },
+  {
+   "name": "Grab",
+   "ats": "smartrecruiters",
+   "slug": "grab",
+   "tier": "A"
+  },
+  {
+   "name": "Swiggy",
+   "ats": "smartrecruiters",
+   "slug": "swiggy",
+   "tier": "B"
+  },
+  {
+   "name": "Freshworks",
+   "ats": "smartrecruiters",
+   "slug": "freshworks",
+   "tier": "B"
+  },
+  {
+   "name": "Mindtickle",
+   "ats": "smartrecruiters",
+   "slug": "mindtickle",
+   "tier": "B"
+  },
+  {
+   "name": "NVIDIA",
+   "ats": "workday",
+   "tenant": "nvidia",
+   "wd": "wd5",
+   "site": "NVIDIAExternalCareerSite",
+   "tier": "A"
+  },
+  {
+   "name": "Salesforce",
+   "ats": "workday",
+   "tenant": "salesforce",
+   "wd": "wd12",
+   "site": "External_Career_Site",
+   "tier": "A"
+  },
+  {
+   "name": "Adobe",
+   "ats": "workday",
+   "tenant": "adobe",
+   "wd": "wd5",
+   "site": "external_experienced",
+   "tier": "A"
+  },
+  {
+   "name": "Adobe (University)",
+   "ats": "workday",
+   "tenant": "adobe",
+   "wd": "wd5",
+   "site": "external_university",
+   "tier": "A"
+  },
+  {
+   "name": "Walmart Global Tech",
+   "ats": "workday",
+   "tenant": "walmart",
+   "wd": "wd5",
+   "site": "WalmartExternal",
+   "tier": "A"
+  },
+  {
+   "name": "PayPal",
+   "ats": "workday",
+   "tenant": "paypal",
+   "wd": "wd1",
+   "site": "jobs",
+   "tier": "A"
+  },
+  {
+   "name": "Autodesk",
+   "ats": "workday",
+   "tenant": "autodesk",
+   "wd": "wd1",
+   "site": "Ext",
+   "tier": "A"
+  },
+  {
+   "name": "Expedia Group",
+   "ats": "workday",
+   "tenant": "expedia",
+   "wd": "wd108",
+   "site": "search",
+   "tier": "A"
+  },
+  {
+   "name": "Nutanix",
+   "ats": "workday",
+   "tenant": "nutanix",
+   "wd": "wd1",
+   "site": "Nutanix_Careers",
+   "tier": "A"
+  },
+  {
+   "name": "Cohesity",
+   "ats": "workday",
+   "tenant": "cohesity",
+   "wd": "wd5",
+   "site": "Cohesity_Careers",
+   "tier": "A"
+  },
+  {
+   "name": "Broadcom",
+   "ats": "workday",
+   "tenant": "broadcom",
+   "wd": "wd1",
+   "site": "External_Career",
+   "tier": "A"
+  },
+  {
+   "name": "Qualcomm",
+   "ats": "workday",
+   "tenant": "qualcomm",
+   "wd": "wd5",
+   "site": "External",
+   "tier": "B"
+  },
+  {
+   "name": "AMD",
+   "ats": "workday",
+   "tenant": "amd",
+   "wd": "wd1",
+   "site": "External",
+   "tier": "B"
+  },
+  {
+   "name": "Intel",
+   "ats": "workday",
+   "tenant": "intel",
+   "wd": "wd1",
+   "site": "External",
+   "tier": "B"
+  },
+  {
+   "name": "Micron",
+   "ats": "workday",
+   "tenant": "micron",
+   "wd": "wd1",
+   "site": "External",
+   "tier": "B"
+  },
+  {
+   "name": "Morgan Stanley",
+   "ats": "workday",
+   "tenant": "ms",
+   "wd": "wd5",
+   "site": "External",
+   "tier": "B"
+  },
+  {
+   "name": "Wells Fargo",
+   "ats": "workday",
+   "tenant": "wf",
+   "wd": "wd1",
+   "site": "WellsFargoJobs",
+   "tier": "B"
+  },
+  {
+   "name": "Mastercard",
+   "ats": "workday",
+   "tenant": "mastercard",
+   "wd": "wd1",
+   "site": "CorporateCareers",
+   "tier": "B"
+  },
+  {
+   "name": "Target",
+   "ats": "workday",
+   "tenant": "target",
+   "wd": "wd5",
+   "site": "targetcareers",
+   "tier": "B"
+  },
+  {
+   "name": "Lowe's",
+   "ats": "workday",
+   "tenant": "lowes",
+   "wd": "wd5",
+   "site": "LWS_External_CS",
+   "tier": "B"
+  },
+  {
+   "name": "Sprinklr",
+   "ats": "workday",
+   "tenant": "sprinklr",
+   "wd": "wd1",
+   "site": "careers",
+   "tier": "B"
+  },
+  {
+   "name": "Cadence",
+   "ats": "workday",
+   "tenant": "cadence",
+   "wd": "wd1",
+   "site": "External_Careers",
+   "tier": "B"
+  },
+  {
+   "name": "Thomson Reuters",
+   "ats": "workday",
+   "tenant": "thomsonreuters",
+   "wd": "wd5",
+   "site": "External_Career_Site",
+   "tier": "B"
+  },
+  {
+   "name": "athenahealth",
+   "ats": "workday",
+   "tenant": "athenahealth",
+   "wd": "wd1",
+   "site": "External",
+   "tier": "B"
+  },
+  {
+   "name": "Deutsche Bank",
+   "ats": "workday",
+   "tenant": "db",
+   "wd": "wd3",
+   "site": "DBWebsite",
+   "tier": "B"
+  },
+  {
+   "name": "DevRev",
+   "ats": "greenhouse",
+   "slug": "devrev",
+   "tier": "A"
+  },
+  {
+   "name": "Composio",
+   "ats": "ashby",
+   "slug": "composio",
+   "tier": "A"
+  },
+  {
+   "name": "Ema",
+   "ats": "ashby",
+   "slug": "ema",
+   "tier": "A"
+  },
+  {
+   "name": "TrueFoundry",
+   "ats": "greenhouse",
+   "slug": "truefoundry",
+   "tier": "A"
+  },
+  {
+   "name": "GigaML",
+   "ats": "ashby",
+   "slug": "gigaml",
+   "tier": "A"
+  },
+  {
+   "name": "Headout",
+   "ats": "ashby",
+   "slug": "headout",
+   "tier": "A"
+  },
+  {
+   "name": "SigNoz",
+   "ats": "ashby",
+   "slug": "signoz",
+   "tier": "B"
+  },
+  {
+   "name": "Squarepoint Capital",
+   "ats": "greenhouse",
+   "slug": "squarepointcapital",
+   "tier": "A"
+  },
+  {
+   "name": "Netskope",
+   "ats": "greenhouse",
+   "slug": "netskope",
+   "tier": "A"
+  },
+  {
+   "name": "Neo4j",
+   "ats": "greenhouse",
+   "slug": "neo4j",
+   "tier": "A"
+  },
+  {
+   "name": "Fastly",
+   "ats": "greenhouse",
+   "slug": "fastly",
+   "tier": "A"
+  },
+  {
+   "name": "Coursera",
+   "ats": "greenhouse",
+   "slug": "coursera",
+   "tier": "A"
+  },
+  {
+   "name": "Duolingo",
+   "ats": "greenhouse",
+   "slug": "duolingo",
+   "tier": "A"
+  },
+  {
+   "name": "Gainsight",
+   "ats": "ashby",
+   "slug": "gainsight",
+   "tier": "B"
+  },
+  {
+   "name": "ION Group",
+   "ats": "lever",
+   "slug": "ion",
+   "tier": "B"
+  },
+  {
+   "name": "Lyzr",
+   "ats": "ashby",
+   "slug": "lyzr",
+   "tier": "B"
+  },
+  {
+   "name": "Coupang",
+   "ats": "greenhouse",
+   "slug": "coupang",
+   "tier": "A"
+  },
+  {
+   "name": "Truecaller",
+   "ats": "greenhouse",
+   "slug": "truecaller",
+   "tier": "A"
+  },
+  {
+   "name": "Nium",
+   "ats": "lever",
+   "slug": "nium",
+   "tier": "B"
+  },
+  {
+   "name": "WorldQuant",
+   "ats": "greenhouse",
+   "slug": "worldquant",
+   "tier": "A"
+  }
+ ],
+ "browser_check": {
+  "_note": "No public API (or blocked). The daily run checks these by web search / browser and only applies on the official careers domain.",
+  "companies": [
+   {
+    "name": "Uber",
+    "url": "https://www.uber.com/us/en/careers/list/?location=IND-Karnataka-Bangalore&location=IND-Telangana-Hyderabad&department=Engineering",
+    "tier": "A"
+   },
+   {
+    "name": "Apple",
+    "url": "https://jobs.apple.com/en-in/search?location=india-INDC&team=software-and-services-SFTWR",
+    "tier": "A"
+   },
+   {
+    "name": "Goldman Sachs",
+    "url": "https://higher.gs.com/results?LOCATION=Bengaluru|Hyderabad&page=1&sort=RELEVANCE",
+    "tier": "A"
+   },
+   {
+    "name": "D. E. Shaw India",
+    "url": "https://www.deshawindia.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "Arcesium",
+    "url": "https://www.arcesium.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "Flipkart",
+    "url": "https://www.flipkartcareers.com/#!/joblist",
+    "tier": "A"
+   },
+   {
+    "name": "PhonePe",
+    "url": "https://www.phonepe.com/careers/job-openings/",
+    "tier": "A"
+   },
+   {
+    "name": "Rippling",
+    "url": "https://ats.rippling.com/rippling/jobs",
+    "tier": "A"
+   },
+   {
+    "name": "Intuit",
+    "url": "https://jobs.intuit.com/search-jobs/India",
+    "tier": "A"
+   },
+   {
+    "name": "Cisco",
+    "url": "https://jobs.cisco.com/jobs/SearchJobs/?21178=%5B169482%5D&21178_format=6020&listFilterMode=1",
+    "tier": "A"
+   },
+   {
+    "name": "Visa",
+    "url": "https://corporate.visa.com/en/jobs/?cities=Bangalore",
+    "tier": "A"
+   },
+   {
+    "name": "American Express",
+    "url": "https://aexp.eightfold.ai/careers?location=India",
+    "tier": "B"
+   },
+   {
+    "name": "Media.net",
+    "url": "https://careers.media.net/",
+    "tier": "A"
+   },
+   {
+    "name": "Confluent",
+    "url": "https://careers.confluent.io/jobs/india",
+    "tier": "A"
+   },
+   {
+    "name": "Postman",
+    "url": "https://www.postman.com/company/careers/open-positions/",
+    "tier": "A"
+   },
+   {
+    "name": "Zepto",
+    "url": "https://www.zeptonow.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "Myntra",
+    "url": "https://careers.myntra.com/",
+    "tier": "B"
+   },
+   {
+    "name": "Juspay",
+    "url": "https://juspay.io/careers",
+    "tier": "B"
+   },
+   {
+    "name": "BrowserStack",
+    "url": "https://www.browserstack.com/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Dream11 / Dream Sports",
+    "url": "https://dreamsports.group/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Games24x7",
+    "url": "https://www.games24x7.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "Meta",
+    "url": "https://www.metacareers.com/jobs?offices[0]=Bangalore%2C%20India&offices[1]=Hyderabad%2C%20India",
+    "tier": "A"
+   },
+   {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/company/linkedin/jobs/",
+    "tier": "A"
+   },
+   {
+    "name": "Netflix",
+    "url": "https://explore.jobs.netflix.net/careers?location=India",
+    "tier": "A"
+   },
+   {
+    "name": "JioHotstar",
+    "url": "search: JioHotstar / JioStar careers Bengaluru software engineer",
+    "tier": "A"
+   },
+   {
+    "name": "Directi",
+    "url": "https://www.directi.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "ThoughtSpot",
+    "url": "https://www.thoughtspot.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "ShareChat",
+    "url": "https://sharechat.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "CrowdStrike",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/crowdstrikecareers",
+    "tier": "A"
+   },
+   {
+    "name": "Palo Alto Networks",
+    "url": "https://jobs.paloaltonetworks.com/en/jobs/?location=India",
+    "tier": "A"
+   },
+   {
+    "name": "Texas Instruments",
+    "url": "https://careers.ti.com/",
+    "tier": "A"
+   },
+   {
+    "name": "Arm",
+    "url": "https://careers.arm.com/search-jobs/India",
+    "tier": "A"
+   },
+   {
+    "name": "Capital One India",
+    "url": "https://www.capitalonecareers.com/india",
+    "tier": "A"
+   },
+   {
+    "name": "Millennium (Bengaluru tech)",
+    "url": "https://www.mlp.com/careers/",
+    "tier": "A"
+   },
+   {
+    "name": "Hasura",
+    "url": "https://hasura.io/careers",
+    "tier": "A"
+   },
+   {
+    "name": "Clari",
+    "url": "https://www.clari.com/careers/",
+    "tier": "A"
+   },
+   {
+    "name": "Krutrim / Ola",
+    "url": "https://www.olakrutrim.com/careers",
+    "tier": "A"
+   },
+   {
+    "name": "Booking.com",
+    "url": "https://jobs.booking.com/booking/jobs?location=India",
+    "tier": "B"
+   },
+   {
+    "name": "Udaan",
+    "url": "https://careers.udaan.com/",
+    "tier": "B"
+   },
+   {
+    "name": "Pine Labs",
+    "url": "https://www.pinelabs.com/careers",
+    "tier": "B"
+   },
+   {
+    "name": "SAP Labs India",
+    "url": "https://jobs.sap.com/search/?locationsearch=Bangalore",
+    "tier": "B"
+   },
+   {
+    "name": "Samsung R&D Bangalore",
+    "url": "search: Samsung R&D Institute Bangalore careers software engineer",
+    "tier": "B"
+   },
+   {
+    "name": "Red Hat",
+    "url": "https://redhat.wd5.myworkdayjobs.com/jobs",
+    "tier": "B"
+   },
+   {
+    "name": "F5",
+    "url": "https://f5.wd5.myworkdayjobs.com/f5jobs",
+    "tier": "B"
+   },
+   {
+    "name": "Akamai",
+    "url": "search: Akamai careers Bangalore software engineer",
+    "tier": "B"
+   },
+   {
+    "name": "Electronic Arts Hyderabad",
+    "url": "https://ea.gr8people.com/jobs",
+    "tier": "B"
+   },
+   {
+    "name": "MediaTek Bangalore",
+    "url": "https://careers.mediatek.com/",
+    "tier": "B"
+   },
+   {
+    "name": "Synopsys",
+    "url": "https://careers.synopsys.com/search-jobs/India",
+    "tier": "B"
+   },
+   {
+    "name": "Pega",
+    "url": "https://www.pega.com/about/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Cloudera",
+    "url": "https://www.cloudera.com/careers.html",
+    "tier": "B"
+   },
+   {
+    "name": "Cashfree Payments",
+    "url": "https://www.cashfree.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "MoneyView",
+    "url": "https://moneyview.in/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Jupiter",
+    "url": "https://jupiter.money/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "INDmoney",
+    "url": "https://www.indmoney.com/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Acko",
+    "url": "https://www.acko.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "Chargebee",
+    "url": "https://www.chargebee.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "CleverTap",
+    "url": "https://clevertap.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "MoEngage",
+    "url": "https://www.moengage.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "Plivo",
+    "url": "https://www.plivo.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "Darwinbox",
+    "url": "https://darwinbox.com/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Whatfix",
+    "url": "https://whatfix.com/careers/",
+    "tier": "B"
+   },
+   {
+    "name": "BigBasket",
+    "url": "https://careers.bigbasket.com/",
+    "tier": "B"
+   },
+   {
+    "name": "MakeMyTrip",
+    "url": "https://careers.makemytrip.com/",
+    "tier": "B"
+   },
+   {
+    "name": "Rapido",
+    "url": "https://www.rapido.bike/Careers",
+    "tier": "B"
+   },
+   {
+    "name": "Ather Energy",
+    "url": "https://www.atherenergy.com/careers",
+    "tier": "B"
+   },
+   {
+    "name": "Indeed (Hyderabad/Bengaluru)",
+    "url": "https://www.indeed.jobs/",
+    "tier": "B"
+   }
+  ]
+ },
+ "maybe_watch": {
+  "_note": "Only apply with evidence of 20 LPA+ for an SDE-1 / new-grad role (salary on posting, Wellfound, levels.fyi, AmbitionBox). Found via Wellfound/Instahyre/Cutshort/LinkedIn discovery.",
+  "companies": [
+   "Apna",
+   "Porter",
+   "Shadowfax",
+   "BlackBuck",
+   "Shiprocket",
+   "Licious",
+   "Practo",
+   "MediBuddy",
+   "Tata 1mg",
+   "PharmEasy",
+   "Cult.fit",
+   "Wakefit",
+   "Moglix",
+   "OfBusiness",
+   "Zetwerk",
+   "Infra.Market",
+   "Khatabook",
+   "smallcase",
+   "Niyo",
+   "NoBroker",
+   "Livspace",
+   "Gupshup",
+   "Exotel",
+   "Amagi",
+   "Tata Digital",
+   "Lenskart",
+   "Nykaa"
+  ]
+ },
+ "skipped": {
+  "_note": "Deliberately not tracked (reason).",
+  "outside_your_cities (Gurgaon/Mumbai/Pune/Chennai, say if you want them)": [
+   "Tower Research",
+   "Quadeye",
+   "Graviton",
+   "AlphaGrep",
+   "WorldQuant (Mumbai/Gurgaon; scanner still catches any Bengaluru role)",
+   "Optiver",
+   "IMC (Mumbai)",
+   "NK Securities",
+   "Zomato / Blinkit",
+   "OYO",
+   "Urban Company",
+   "PolicyBazaar",
+   "Info Edge",
+   "Delhivery",
+   "CARS24",
+   "Upstox",
+   "BharatPe",
+   "Fibe",
+   "M2P",
+   "Barclays",
+   "Citi",
+   "BNY",
+   "Mastercard (Pune)",
+   "Workday (Pune/Chennai)",
+   "Zoho (Chennai)"
+  ],
+  "no India engineering hiring": [
+   "Jane Street",
+   "Citadel / Citadel Securities",
+   "Hudson River Trading",
+   "Jump Trading",
+   "SIG",
+   "Akuna",
+   "Maven Securities",
+   "Virtu",
+   "Palantir",
+   "Plaid",
+   "Bloomberg (no large India eng)"
+  ],
+  "fresher pay usually under 20 LPA": [
+   "HighRadius",
+   "Zoho",
+   "Freshworks-level SaaS is kept; analytics services (Sigmoid, Fractal, Tredence, Tiger Analytics, Mu Sigma)",
+   "HSBC",
+   "Standard Chartered",
+   "HDFC / ICICI / Bajaj tech",
+   "Bosch",
+   "Mercedes-Benz R&D",
+   "BMW",
+   "Volkswagen",
+   "Airbus",
+   "GE Vernova",
+   "Honeywell",
+   "Siemens",
+   "Schneider",
+   "Nokia",
+   "Ericsson",
+   "Dell",
+   "HP",
+   "Lenovo",
+   "Tesco",
+   "Adidas",
+   "Nike",
+   "Fidelity",
+   "S&P Global",
+   "Capillary",
+   "Ninjacart",
+   "Country Delight"
+  ],
+  "IT services and consulting": [
+   "Accenture",
+   "IBM",
+   "Deloitte",
+   "PwC",
+   "EY",
+   "KPMG",
+   "McKinsey Digital",
+   "BCG X",
+   "Bain",
+   "Thoughtworks",
+   "LTIMindtree",
+   "Mphasis",
+   "HCLTech",
+   "TCS",
+   "Infosys",
+   "Wipro",
+   "Cognizant",
+   "Capgemini",
+   "Tech Mahindra",
+   "NTT DATA",
+   "DXC",
+   "EPAM",
+   "Publicis Sapient",
+   "Nagarro",
+   "ZS",
+   "Genpact",
+   "EXL",
+   "Fiserv",
+   "FIS",
+   "Persistent",
+   "Coforge",
+   "Birlasoft",
+   "Globant",
+   "GlobalLogic",
+   "Broadridge (your PPO already)"
+  ]
+ }
+}
